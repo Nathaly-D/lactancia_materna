@@ -1,0 +1,390 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#viewDiv {
+    height: 40%;
+    width: 40%;
+  }
+
+body{
+    margin: 0;
+    background-color: #FFD0E9;
+}
+    
+
+/**************************Botón de wathsapp*********************************************/
+.btn-wsp{
+    position:fixed;
+    width:75px;
+    height:75px;
+    line-height: 70px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:45px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+/****************************************************************************/
+strong{
+    color: #E1306C;
+}
+
+header{
+    background-color: #f5f5f5;
+    position: absolute; z-index: 1;    
+}
+
+.marca > img{
+    margin-top: 1%;
+    width: 140px;
+    height: 140px;
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 10px;
+    font-size: 18px;    
+}
+
+#nave{
+    padding: 6px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;    
+}
+#nave:hover{
+    color: #e3cf30;
+}
+
+header a:hover{
+    color:#e3cf30;
+}
+/****************************************************Redes banner***************************/
+.container-bar{
+	width: 100%;
+	max-width: 50px;
+	position: fixed;
+	left: 0;
+	top: 25%;
+}
+.container-bar a{
+	display: block;
+	width: 55px;
+	height: 55px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	position: relative;
+	transition: all 500ms ease;
+	color: #fff;
+}
+.container-bar a:hover{
+	background: #1c1c1c;
+}
+.container-bar .fa-facebook{
+	background: #3b5998;
+	border-radius: 0px 5px 0px 0px;
+}
+.container-bar .fa-envelope{
+	background: #e52a23;
+}
+.container-bar .fa-instagram{
+	background: #E1306C;
+}
+
+.container-bar #title{
+	position: absolute;
+	background: #1c1c1c;
+	padding: 0px 8px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 15px;
+	top:12px; left: 0px;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+}
+.container-bar a:hover #title{
+	opacity: 1;
+	visibility: visible;
+	left: 64px;
+}
+.container-bar #title:after{
+	position: absolute;
+	content: '';
+	border-left: 7px solid transparent;
+	border-right: 6px solid #1c1c1c;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	right: 100%;
+	top: 8px;
+}
+#btn-social{
+	display: none;
+}
+.fa-play{
+	cursor: pointer;
+	transition: all 0.4s;
+	font-size: 18px;
+	margin-bottom: 5px;
+	display: inline-block;
+	transform: rotate(180deg);
+	color: #e3cf30;
+}
+#btn-social:checked ~ .fa-play{
+	transform: rotate(0deg);
+}
+.icon-social{
+	transition: all 0.4s;
+	transform: translateX(0%);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+}
+#btn-social:checked ~ .icon-social{
+	transform: translateX(-100%);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.0);
+}
+/*************************************Hero***************************************************/
+.logo{
+    display: inline-block;
+    margin: 0;
+    padding: auto;
+    color: #EB17A4;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../assets/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+#hero button{
+    font-size: 1.75em;
+}
+.button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: #e3cf30;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #3E89EB;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color:#EB17A4; }
+
+/******************************************Footer*****************************************/
+footer{
+    text-align: center;
+    padding: 2%;  
+}
+footer>a{
+    width: 2%;
+    padding: 1%;
+    color: #1c1c1c;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #feb2f3;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: black;
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/*****************************************Index decoración*****************************************/
+#decoracion{
+    display: flex;
+    justify-content:space-between;
+    width: 120px;
+    height: 120px;
+
+}
+/*************************REGISTRATE e Inicio*******************************************/
+
+.form{ 
+    margin-top: 1%;  
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    border-radius: 10px;
+    border: 4px solid #E1306C;
+    padding: 25px 10px;
+    text-align: center;
+
+}
+
+
+.form > input,label,button,select{
+    display: inline-block;
+    width: 80%;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.form > input{
+    padding: 10px 2px;
+    border: none;
+    border-bottom: 1px solid #e3cf30;
+    outline: none;
+}
+
+.form > label{
+    text-align: left;
+    padding: 5px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.login-btn {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #e3cf30;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #d2bc27;
+}
+
+/********************************Quiebes somos***********************/
+.quienes{
+    margin-left: 9%;
+    padding-top:9%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#ision{
+    margin: 1%;
+    width: 350px;
+    height: 400px;
+}
+.card{
+    width: 1600px;
+    height: 410px;
+    justify-content: center;
+    align-items: center;
+}
+#datos{
+    justify-content: center;
+    padding-top: 7%;
+}
+.card-title{
+    font-size: 24px;
+}
+#heo{
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-left: 40%;
+}
+
+
+/*******************************************************************************************/
+@media (min-width: 850px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
+
+
