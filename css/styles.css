@@ -335,10 +335,11 @@ input[type="checkbox"] {
     background-color: #d2bc27;
 }
 
+
 /********************************Quiebes somos***********************/
 .quienes{
-    margin-left: 7%;
-    padding-top:18%;
+    margin-left: 8%;
+    padding-top: 20%;
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -369,9 +370,8 @@ input[type="checkbox"] {
     margin-left: 40%;
 }
 
-
-/*******************************************************************************************/
-@media (min-width: 850px){
+/*************************************/
+@media (min-width: 980px){
     header{
         position: fixed;
         width: 100%;
@@ -392,7 +392,7 @@ input[type="checkbox"] {
         padding-top:9%;
     }
     #ision{
-        margin: 1%;
+        margin: 2%;
         width: 350px;
         height: 400px;
     }
@@ -404,6 +404,11 @@ input[type="checkbox"] {
     .card-body{
         padding-left: 0%;
     }
+    #datos{
+        padding-top:5%; 
+        padding-left: 2%;
+    }
+
     .form{ 
         margin-top: 1%;  
         width: 70%;
