@@ -22,9 +22,9 @@ body{
 /**************************Botón de wathsapp*********************************************/
 .btn-wsp{
     position:fixed;
-    width:75px;
-    height:75px;
-    line-height: 70px;
+    width:65px;
+    height:65px;
+    line-height: 60px;
     bottom:25px;
     right:25px;
     background:#25d366;
@@ -69,7 +69,7 @@ header nav{
     text-align: center;
     margin-top: 5%;
     padding-bottom: 10px;
-    font-size: 18px;   
+    font-size: 14px;   
 }
 
 #nave{
@@ -95,12 +95,12 @@ header a:hover{
 }
 .container-bar a{
 	display: block;
-	width: 55px;
-	height: 55px;
+	width: 45px;
+	height: 45px;
 	line-height: 50px;
 	text-align: center;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 16px;
 	position: relative;
 	transition: all 500ms ease;
 	color: #fff;
@@ -173,7 +173,218 @@ header a:hover{
 	transform: translateX(-100%);
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.0);
 }
-/*************************************Hero***************************************************/
+/***********************************Hero***************************************************/
+.logo{
+    display: inline-block;
+    margin: 0;
+    padding: auto;
+    color: #EB17A4;
+    font-size: 20;
+    text-decoration: none;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 850px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../assets/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+#hero button{
+    font-size: 8px;
+}
+.button{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: #e3cf30;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #feb2f3;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.color-acento{ color:#EB17A4; }
+ /**************************footer***************************/
+ footer{
+    text-align: center;
+    padding: 2%; 
+}
+
+footer>a{
+    width: 2%;
+    padding: 1%;
+    color: #1c1c1c;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #feb2f3;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: black;
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/****************Index decoracion***************************/
+#decoracion{
+    display: flex;
+    justify-content:space-between;
+    width: 50px;
+    height: 50px;
+}
+.int{
+    margin-left: 0.1px;
+}
+/************************************************/
+
+.form{ 
+    margin-top: 5%;  
+    width: 80%;
+    height: auto;
+    margin-left: 15%;
+    border-radius: 10px;
+    border: 4px solid #E1306C;
+    padding: 20px 10px;
+    text-align: center;
+
+}
+
+.form > input,label,button,select{
+    display: inline-block;
+    width: 70%;
+    margin: 1px 0;
+    font-size: 12px;
+}
+
+.form > input{
+    padding: 10px 2px;
+    border: none;
+    border-bottom: 1px solid #e3cf30;
+    outline:none;
+}
+
+.form > label{
+    text-align: left;
+    padding: 5px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.login-btn {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #e3cf30;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #d2bc27;
+}
+
+.redes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes a {
+    margin: 5px;
+}
+
+.redes img {
+    width: 250px;
+    height: 50px;
+}
+/***********************************************/
+.quienes{
+    margin-left: 15%;
+    padding-top: 40%;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+#ision{
+    margin-left: 10%;
+    width: 120px;
+    height: 150px;
+}
+.card{
+    width: 330px;
+    height: 470px;
+    justify-content: center;
+    align-items: center;
+}
+#datos{
+    justify-content: center;
+    padding-top: 5%;
+}
+.card-title{
+    font-size: 20px;
+}
+#heo{
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+}
+.embarazo{
+    padding-top: 5%;
+}
+
+/*************************************Hero**************************************************
 .logo{
     display: inline-block;
     margin: 0;
@@ -229,8 +440,8 @@ header a:hover{
 }
 
 .color-acento{ color:#EB17A4; }
-
-/******************************************Footer*****************************************/
+*/
+/******************************************Footer****************************************
 footer{
     text-align: center;
     padding: 2%;  
@@ -257,8 +468,8 @@ footer .container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
-/*****************************************Index decoración*****************************************/
+}*/
+/*****************************************Index decoración****************************************
 #decoracion{
     display: flex;
     justify-content:space-between;
@@ -267,9 +478,9 @@ footer .container {
 }
 .int{
     margin-left: 0.1px;
-}
+}*/
 
-/*************************REGISTRATE e Inicio*******************************************/
+/*************************REGISTRATE e Inicio******************************************
 
 .form{ 
     margin-top: 3%;  
@@ -334,9 +545,9 @@ input[type="checkbox"] {
 .login-btn:hover {
     background-color: #d2bc27;
 }
+*/
 
-
-/********************************Quiebes somos***********************/
+/********************************Quiebes somos**********************
 .quienes{
     margin-left: 8%;
     padding-top: 20%;
@@ -368,15 +579,19 @@ input[type="checkbox"] {
     width: 150px;
     height: 150px;
     margin-left: 40%;
-}
+}*/
 
-/*************************************/
 @media (min-width: 980px){
+    body{
+        font-size: 18px;
+    }
     header{
         position: fixed;
         width: 100%;
     }
-
+    #hero{
+        height: 500px;
+    }
     header .container{
         flex-direction: row;
         justify-content: space-between;
@@ -387,34 +602,71 @@ input[type="checkbox"] {
         padding-bottom: 0;
         padding-right: 20px;
     }
+    #decoracion{
+        width: 90px;
+        height: 60px;
+    }
+    .marca > img{
+        margin-top: 1%;
+        width: 100px;
+        height: 100px;
+        
+    }
     .quienes{
         margin-left: 9%;
         padding-top:9%;
     }
     #ision{
         margin: 2%;
-        width: 350px;
-        height: 400px;
+        width: 150px;
+        height: 180px;
     }
     .card{
-        width: 1580px;
-        height: 410px;
+        width: 1000px;
+        height: 200px;
 
     }
     .card-body{
         padding-left: 0%;
     }
     #datos{
-        padding-top:5%; 
-        padding-left: 2%;
+        padding-top:2%; 
+
+    }
+    #heo{
+        margin-left:40%;
     }
 
     .form{ 
-        margin-top: 1%;  
+        margin-top: 0%;
+        padding-top: 0%;
         width: 70%;
         margin-left: 15%;
 
     }
+    .login-btn {
+        display: inline-block;
+        width: 300px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-color: #e3cf30;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        font-size: 22px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    footer{
+        font-size: 16px;
+    }
+    h2{
+        padding-top: 1%;
+        font-size: 22px;
+    }
+
 }
 
 @media (min-width: 1100px){
@@ -422,4 +674,7 @@ input[type="checkbox"] {
     margin-left: 40%;
     margin-right: 40%;
  }
-}
+
+} 
+
+
