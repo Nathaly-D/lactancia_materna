@@ -808,19 +808,22 @@ input[type="checkbox"] {
         position: fixed;
         width: 100%;
     }
+    #decoracion{
+        width: 40px;
+        height: 40px;
+    }
     footer{
         width: 100%;
-        
     }
     #hero{
         height: 500px;
         width: 100%;
     }
     .quienes{
-        padding-top: 25%;
+        padding-top: 35%;
     }
     #ision{
-        margin: 2%;
+        margin: 3%;
         width: 100px;
         height: 130px;
     }
@@ -830,7 +833,7 @@ input[type="checkbox"] {
 
     }
     #heo{
-        margin-left:60%;
+        margin-left:28%;
     }
 
 }
