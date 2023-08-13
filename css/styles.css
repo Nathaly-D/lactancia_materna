@@ -809,8 +809,8 @@ input[type="checkbox"] {
         width: 100%;
     }
     #decoracion{
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
     }
     footer{
         width: 100%;
@@ -828,7 +828,7 @@ input[type="checkbox"] {
         height: 130px;
     }
     .card{
-        width: 300px;
+        width: 280px;
         height: 500px;
 
     }
