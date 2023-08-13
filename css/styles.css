@@ -809,18 +809,18 @@ input[type="checkbox"] {
         width: 100%;
     }
     #decoracion{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
     footer{
         width: 100%;
     }
     #hero{
-        height: 500px;
+        height: 520px;
         width: 100%;
     }
     .quienes{
-        padding-top: 35%;
+        padding-top: 40%;
     }
     #ision{
         margin: 3%;
@@ -828,8 +828,8 @@ input[type="checkbox"] {
         height: 130px;
     }
     .card{
-        width: 400px;
-        height: 450px;
+        width: 300px;
+        height: 500px;
 
     }
     #heo{
