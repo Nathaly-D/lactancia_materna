@@ -803,3 +803,34 @@ input[type="checkbox"] {
         margin-left:40%;
     }
 }
+@media (max-width: 480px) {
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        
+    }
+    #hero{
+        height: 500px;
+        width: 100%;
+    }
+    .quienes{
+        padding-top: 25%;
+    }
+    #ision{
+        margin: 2%;
+        width: 100px;
+        height: 130px;
+    }
+    .card{
+        width: 400px;
+        height: 450px;
+
+    }
+    #heo{
+        margin-left:60%;
+    }
+
+}
