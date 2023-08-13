@@ -803,7 +803,7 @@ input[type="checkbox"] {
         margin-left:40%;
     }
 }
-@media (max-width: 520px) {
+@media (max-width: 720px) {
     header{
         position: fixed;
         width: 100%;
