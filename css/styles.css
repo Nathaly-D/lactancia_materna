@@ -384,204 +384,6 @@ input[type="checkbox"] {
 .embarazo{
     padding-top: 5%;
 }
-
-/*************************************Hero**************************************************
-.logo{
-    display: inline-block;
-    margin: 0;
-    padding: auto;
-    color: #EB17A4;
-    font-size: 25px;
-    text-decoration: none;
-}
-
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../assets/img/banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-#hero h1{
-    color: white;
-}
-#hero button{
-    font-size: 10px;
-}
-.button{
-    font-size: 25px;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: 2px solid rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: white;
-    background-color: #e3cf30;
-    text-decoration: none;
-}
-
-.button:hover{
-    background-color: #feb2f3;
-}
-
-.container{
-    max-width: 1400px;
-    margin: auto;
-}
-
-.color-acento{ color:#EB17A4; }
-*/
-/******************************************Footer****************************************
-footer{
-    text-align: center;
-    padding: 2%;  
-}
-footer>a{
-    width: 2%;
-    padding: 1%;
-    color: #1c1c1c;
-    font-size: 25px;
-}
-
-footer {
-    background-color: #feb2f3;
-}
-
-footer p {
-    margin: 0;
-    padding: 12px;
-    color: black;
-}
-
-footer .container {
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}*/
-/*****************************************Index decoración****************************************
-#decoracion{
-    display: flex;
-    justify-content:space-between;
-    width: 110px;
-    height: 110px;
-}
-.int{
-    margin-left: 0.1px;
-}*/
-
-/*************************REGISTRATE e Inicio******************************************
-
-.form{ 
-    margin-top: 3%;  
-    width: 75%;
-    height: auto;
-    margin-left: 13%;
-    border-radius: 10px;
-    border: 4px solid #E1306C;
-    padding: 25px 10px;
-    text-align: center;
-
-}
-
-
-.form > input,label,button,select{
-    display: inline-block;
-    width: 80%;
-    margin: 5px 0;
-    font-size: 20px;
-}
-
-.form > input{
-    padding: 10px 2px;
-    border: none;
-    border-bottom: 1px solid #e3cf30;
-    outline: none;
-}
-
-.form > label{
-    text-align: left;
-    padding: 5px;
-}
-.check{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 120px;
-    cursor: pointer;
-    margin-bottom: 12px;
-}
-
-input[type="checkbox"] {
-    margin-right: 10px;
-}
-
-.login-btn {
-    display: inline-block;
-    width: 300px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    background-color: #e3cf30;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    font-size: 22px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.login-btn:hover {
-    background-color: #d2bc27;
-}
-*/
-
-/********************************Quiebes somos**********************
-.quienes{
-    margin-left: 8%;
-    padding-top: 20%;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-}
-#ision{
-    margin: 2%;
-    width: 250px;
-    height: 300px;
-}
-.card{
-    width: 850px;
-    height: 350px;
-    justify-content: center;
-    align-items: center;
-}
-#datos{
-    justify-content: center;
-    padding-top: 7%;
-}
-.card-title{
-    font-size: 24px;
-}
-#heo{
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-    margin-left: 40%;
-}*/
-
 @media (min-width: 980px){
     body{
         font-size: 18px;
@@ -809,14 +611,14 @@ input[type="checkbox"] {
         width: 100%;
     }
     #decoracion{
-        width: 50px;
-        height: 50px;
+        width: 25px;
+        height: 25px;
     }
     footer{
         width: 100%;
     }
     #hero{
-        height: 560px;
+        height: 600px;
         width: 100%;
     }
     .quienes{
@@ -830,6 +632,7 @@ input[type="checkbox"] {
     .card{
         width: 280px;
         height: 500px;
+        margin-left:5%;
 
     }
     #heo{
