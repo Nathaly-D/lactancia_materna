@@ -622,6 +622,7 @@ input[type="checkbox"] {
         width: 100%;
     }
     .quienes{
+        margin-left:5%;
         padding-top: 45%;
     }
     #ision{
@@ -632,7 +633,7 @@ input[type="checkbox"] {
     .card{
         width: 280px;
         height: 500px;
-        margin-left:5%;
+
 
     }
     #heo{
